@@ -1,0 +1,16 @@
+{
+  "rule": "First saved test image for subjects 1,11,21,31; selected without inspecting errors",
+  "subjects": [
+    1,
+    11,
+    21,
+    31
+  ],
+  "zero_based_global_indices": [
+    2,
+    106,
+    209,
+    308
+  ],
+  "components": 30
+}

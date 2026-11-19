@@ -1,0 +1,186 @@
+{
+  "seconds": 8.141800299985334,
+  "components": [
+    {
+      "component": 1,
+      "iterations": 81,
+      "converged_monitor": true,
+      "relative_l2_change": 9.605244731227372e-05
+    },
+    {
+      "component": 2,
+      "iterations": 42,
+      "converged_monitor": true,
+      "relative_l2_change": 9.767841098596298e-05
+    },
+    {
+      "component": 3,
+      "iterations": 3,
+      "converged_monitor": true,
+      "relative_l2_change": 1.766591883460728e-05
+    },
+    {
+      "component": 4,
+      "iterations": 87,
+      "converged_monitor": true,
+      "relative_l2_change": 9.406872348226942e-05
+    },
+    {
+      "component": 5,
+      "iterations": 31,
+      "converged_monitor": true,
+      "relative_l2_change": 9.074360666048245e-05
+    },
+    {
+      "component": 6,
+      "iterations": 27,
+      "converged_monitor": true,
+      "relative_l2_change": 9.133684500953688e-05
+    },
+    {
+      "component": 7,
+      "iterations": 100,
+      "converged_monitor": false,
+      "relative_l2_change": 0.00027666720761503424
+    },
+    {
+      "component": 8,
+      "iterations": 44,
+      "converged_monitor": true,
+      "relative_l2_change": 8.138836322458335e-05
+    },
+    {
+      "component": 9,
+      "iterations": 100,
+      "converged_monitor": false,
+      "relative_l2_change": 0.000210755873075286
+    },
+    {
+      "component": 10,
+      "iterations": 36,
+      "converged_monitor": true,
+      "relative_l2_change": 9.277405173723718e-05
+    },
+    {
+      "component": 11,
+      "iterations": 31,
+      "converged_monitor": true,
+      "relative_l2_change": 2.3741311508460372e-05
+    },
+    {
+      "component": 12,
+      "iterations": 20,
+      "converged_monitor": true,
+      "relative_l2_change": 7.775583691980806e-05
+    },
+    {
+      "component": 13,
+      "iterations": 28,
+      "converged_monitor": true,
+      "relative_l2_change": 2.9716759213752323e-05
+    },
+    {
+      "component": 14,
+      "iterations": 62,
+      "converged_monitor": true,
+      "relative_l2_change": 6.162368166349693e-05
+    },
+    {
+      "component": 15,
+      "iterations": 8,
+      "converged_monitor": true,
+      "relative_l2_change": 8.205321552388178e-05
+    },
+    {
+      "component": 16,
+      "iterations": 14,
+      "converged_monitor": true,
+      "relative_l2_change": 7.738982236279828e-06
+    },
+    {
+      "component": 17,
+      "iterations": 24,
+      "converged_monitor": true,
+      "relative_l2_change": 5.270815499097353e-05
+    },
+    {
+      "component": 18,
+      "iterations": 43,
+      "converged_monitor": true,
+      "relative_l2_change": 9.672204750117106e-05
+    },
+    {
+      "component": 19,
+      "iterations": 60,
+      "converged_monitor": true,
+      "relative_l2_change": 9.444957381391586e-05
+    },
+    {
+      "component": 20,
+      "iterations": 50,
+      "converged_monitor": true,
+      "relative_l2_change": 5.024012728413731e-06
+    },
+    {
+      "component": 21,
+      "iterations": 25,
+      "converged_monitor": true,
+      "relative_l2_change": 8.221487458389819e-05
+    },
+    {
+      "component": 22,
+      "iterations": 22,
+      "converged_monitor": true,
+      "relative_l2_change": 6.398902487830626e-05
+    },
+    {
+      "component": 23,
+      "iterations": 50,
+      "converged_monitor": true,
+      "relative_l2_change": 9.860087599666831e-05
+    },
+    {
+      "component": 24,
+      "iterations": 44,
+      "converged_monitor": true,
+      "relative_l2_change": 6.105152589123183e-05
+    },
+    {
+      "component": 25,
+      "iterations": 21,
+      "converged_monitor": true,
+      "relative_l2_change": 3.228206073951212e-05
+    },
+    {
+      "component": 26,
+      "iterations": 27,
+      "converged_monitor": true,
+      "relative_l2_change": 3.953387807320208e-06
+    },
+    {
+      "component": 27,
+      "iterations": 33,
+      "converged_monitor": true,
+      "relative_l2_change": 2.8228928559217013e-05
+    },
+    {
+      "component": 28,
+      "iterations": 37,
+      "converged_monitor": true,
+      "relative_l2_change": 5.070580153736807e-05
+    },
+    {
+      "component": 29,
+      "iterations": 52,
+      "converged_monitor": true,
+      "relative_l2_change": 8.8730182427056e-05
+    },
+    {
+      "component": 30,
+      "iterations": 38,
+      "converged_monitor": true,
+      "relative_l2_change": 7.113311396962882e-05
+    }
+  ],
+  "gram_off_identity_fro": 1.062086033028573
+}

@@ -1,0 +1,20 @@
+{
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 15:03:56) [MSC v.1929 64 bit (AMD64)]",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 170 Stepping 4, GenuineIntel",
+  "logical_cpus": 22,
+  "packages": {
+    "numpy": "1.26.4",
+    "scipy": "1.13.1",
+    "scikit-learn": "1.4.2",
+    "pandas": "2.2.2",
+    "matplotlib": "3.11.0",
+    "Pillow": "10.3.0",
+    "pytest": "7.4.4",
+    "threadpoolctl": "3.6.0"
+  },
+  "threads_per_blas": 1,
+  "date_local": "2026-11-19",
+  "dataset_sha256": "f59adc3a173cca9685cafc13645f6af4e05e62a16190049c63ebedfeeece1fcd",
+  "cpu_name": "Intel(R) Core(TM) Ultra 7 155H"
+}

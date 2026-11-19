@@ -1,0 +1,49 @@
+recognition seed=2026 eta=(0.001,0.1) val=0.9500 fit=0.57s
+recognition seed=2026 eta=(0.001,10) val=0.9375 fit=1.00s
+recognition seed=2026 eta=(0.001,1000) val=0.5000 fit=0.44s
+recognition seed=2026 eta=(0.01,0.1) val=0.9500 fit=1.23s
+recognition seed=2026 eta=(0.01,10) val=0.9500 fit=1.12s
+recognition seed=2026 eta=(0.01,1000) val=0.5250 fit=0.60s
+recognition seed=2026 eta=(0.1,0.1) val=0.9500 fit=5.12s
+recognition seed=2026 eta=(0.1,10) val=0.9750 fit=3.34s
+recognition seed=2026 eta=(0.1,1000) val=0.7125 fit=1.35s
+FINAL recognition seed=2026 PCA: k30=0.9500
+FINAL recognition seed=2026 PCA-L1: k30=0.9417
+FINAL recognition seed=2026 RSSPCA: k30=0.9417
+recognition seed=3024 eta=(0.001,0.1) val=0.9250 fit=0.56s
+recognition seed=3024 eta=(0.001,10) val=0.9125 fit=0.84s
+recognition seed=3024 eta=(0.001,1000) val=0.4625 fit=0.46s
+recognition seed=3024 eta=(0.01,0.1) val=0.9000 fit=1.21s
+recognition seed=3024 eta=(0.01,10) val=0.9250 fit=1.03s
+recognition seed=3024 eta=(0.01,1000) val=0.4625 fit=0.70s
+recognition seed=3024 eta=(0.1,0.1) val=0.9500 fit=5.20s
+recognition seed=3024 eta=(0.1,10) val=0.9000 fit=3.58s
+recognition seed=3024 eta=(0.1,1000) val=0.7750 fit=1.54s
+FINAL recognition seed=3024 PCA: k30=0.9750
+FINAL recognition seed=3024 PCA-L1: k30=0.9750
+FINAL recognition seed=3024 RSSPCA: k30=0.9833
+recognition seed=77 eta=(0.001,0.1) val=0.9125 fit=0.53s
+recognition seed=77 eta=(0.001,10) val=0.9000 fit=0.88s
+recognition seed=77 eta=(0.001,1000) val=0.4500 fit=0.45s
+recognition seed=77 eta=(0.01,0.1) val=0.9000 fit=1.26s
+recognition seed=77 eta=(0.01,10) val=0.9000 fit=1.06s
+recognition seed=77 eta=(0.01,1000) val=0.4750 fit=0.67s
+recognition seed=77 eta=(0.1,0.1) val=0.9250 fit=4.91s
+recognition seed=77 eta=(0.1,10) val=0.9000 fit=3.70s
+recognition seed=77 eta=(0.1,1000) val=0.7875 fit=1.82s
+FINAL recognition seed=77 PCA: k30=1.0000
+FINAL recognition seed=77 PCA-L1: k30=1.0000
+FINAL recognition seed=77 RSSPCA: k30=0.9917
+reconstruction eta=(1e-05,0.1) val_mse=0.007796 fit=0.43s
+reconstruction eta=(1e-05,1) val_mse=0.007501 fit=0.46s
+reconstruction eta=(1e-05,10) val_mse=0.008018 fit=0.64s
+reconstruction eta=(0.001,0.1) val_mse=0.007818 fit=0.57s
+reconstruction eta=(0.001,1) val_mse=0.007533 fit=0.58s
+reconstruction eta=(0.001,10) val_mse=0.008012 fit=0.79s
+reconstruction eta=(0.1,0.1) val_mse=0.010988 fit=4.92s
+reconstruction eta=(0.1,1) val_mse=0.010234 fit=4.16s
+reconstruction eta=(0.1,10) val_mse=0.009203 fit=3.19s
+FINAL reconstruction PCA: k30 occluded MSE=0.006925
+FINAL reconstruction PCA-L1: k30 occluded MSE=0.007007
+FINAL reconstruction RSSPCA: k30 occluded MSE=0.006522
+COMPLETED in 83.3s

@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "recognition_rows_verified": 36,
+  "summary_rows_verified": 12,
+  "reconstruction_metrics_recomputed": 3,
+  "saved_models_checked": 12,
+  "replay_seed": 2026,
+  "replay_max_abs_weight_difference": 0.0,
+  "replay_predictions_identical": true,
+  "replay_seconds": 4.196392899961211,
+  "matlab_engine_executed": false,
+  "reference_check": "Independent dense Python transcription of official MATLAB plus paper equation identity"
+}

@@ -1,0 +1,1650 @@
+{
+  "completed": true,
+  "config": {
+    "seeds": [
+      2026,
+      3024,
+      77
+    ],
+    "components": [
+      5,
+      10,
+      20,
+      30
+    ],
+    "shape": [
+      56,
+      46
+    ],
+    "training_per_subject": 7,
+    "inner_training_per_subject": 5,
+    "validation_components": 20,
+    "recognition_eta1": [
+      0.001,
+      0.01,
+      0.1
+    ],
+    "recognition_eta2": [
+      0.1,
+      10.0,
+      1000.0
+    ],
+    "reconstruction_eta1": [
+      1e-05,
+      0.001,
+      0.1
+    ],
+    "reconstruction_eta2": [
+      0.1,
+      1.0,
+      10.0
+    ],
+    "tol": 0.0001,
+    "max_iter": 100,
+    "training_corruption_fraction": 0.2,
+    "block_shape": [
+      14,
+      12
+    ],
+    "test_corruption_fraction": 1.0,
+    "reconstruction_seed": 2026,
+    "noise_seed_offset": 10000
+  },
+  "wall_seconds": 83.34573709999677,
+  "recognition_summary": [
+    {
+      "method": "PCA",
+      "components": 5,
+      "mean": 0.8805555555555555,
+      "std": 0.03938179688543838
+    },
+    {
+      "method": "PCA",
+      "components": 10,
+      "mean": 0.9583333333333334,
+      "std": 0.03004626062886658
+    },
+    {
+      "method": "PCA",
+      "components": 20,
+      "mean": 0.9611111111111111,
+      "std": 0.02926570486903542
+    },
+    {
+      "method": "PCA",
+      "components": 30,
+      "mean": 0.975,
+      "std": 0.02500000000000005
+    },
+    {
+      "method": "PCA-L1",
+      "components": 5,
+      "mean": 0.8583333333333334,
+      "std": 0.0583333333333334
+    },
+    {
+      "method": "PCA-L1",
+      "components": 10,
+      "mean": 0.9638888888888889,
+      "std": 0.02545875386086582
+    },
+    {
+      "method": "PCA-L1",
+      "components": 20,
+      "mean": 0.9638888888888889,
+      "std": 0.02545875386086582
+    },
+    {
+      "method": "PCA-L1",
+      "components": 30,
+      "mean": 0.9722222222222222,
+      "std": 0.02926570486903542
+    },
+    {
+      "method": "RSSPCA",
+      "components": 5,
+      "mean": 0.8361111111111111,
+      "std": 0.012729376930432856
+    },
+    {
+      "method": "RSSPCA",
+      "components": 10,
+      "mean": 0.9500000000000001,
+      "std": 0.016666666666666677
+    },
+    {
+      "method": "RSSPCA",
+      "components": 20,
+      "mean": 0.9694444444444444,
+      "std": 0.020971762320196586
+    },
+    {
+      "method": "RSSPCA",
+      "components": 30,
+      "mean": 0.9722222222222222,
+      "std": 0.026787918780536026
+    }
+  ],
+  "reconstruction_selection": {
+    "experiment": "reconstruction",
+    "seed": 2026,
+    "eta1": 1e-05,
+    "eta2": 1.0,
+    "components": 20,
+    "validation_accuracy": null,
+    "validation_mse": 0.00750126585314885,
+    "fit_seconds": 0.46233170002233237,
+    "monitor_converged_components": 20
+  },
+  "final_fit_status": {
+    "recognition_2026_PCA": {
+      "seconds": 0.0386152999708429,
+      "components": []
+    },
+    "recognition_2026_PCA-L1": {
+      "seconds": 0.19893419998697937,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 7,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 2,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 3,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 4,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 5,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 6,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 7,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 8,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 9,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 10,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 11,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 12,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 13,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 14,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 15,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 16,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 17,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 18,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 19,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 20,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 21,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 6.83247624938533e-05
+        },
+        {
+          "component": 22,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 23,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 24,
+          "iterations": 8,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 25,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 26,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 27,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 28,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 29,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 30,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        }
+      ],
+      "gram_off_identity_fro": 1.3589638533909472e-15
+    },
+    "recognition_2026_RSSPCA": {
+      "seconds": 4.293244499946013,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 55,
+          "converged_monitor": true,
+          "relative_l2_change": 9.482985782377329e-05
+        },
+        {
+          "component": 2,
+          "iterations": 27,
+          "converged_monitor": true,
+          "relative_l2_change": 8.959750010112761e-05
+        },
+        {
+          "component": 3,
+          "iterations": 40,
+          "converged_monitor": true,
+          "relative_l2_change": 9.359474374145954e-05
+        },
+        {
+          "component": 4,
+          "iterations": 28,
+          "converged_monitor": true,
+          "relative_l2_change": 2.7692450716677195e-05
+        },
+        {
+          "component": 5,
+          "iterations": 30,
+          "converged_monitor": true,
+          "relative_l2_change": 9.396177796917541e-05
+        },
+        {
+          "component": 6,
+          "iterations": 21,
+          "converged_monitor": true,
+          "relative_l2_change": 4.943721804082076e-05
+        },
+        {
+          "component": 7,
+          "iterations": 16,
+          "converged_monitor": true,
+          "relative_l2_change": 2.8580544579448604e-05
+        },
+        {
+          "component": 8,
+          "iterations": 29,
+          "converged_monitor": true,
+          "relative_l2_change": 9.976942791712533e-05
+        },
+        {
+          "component": 9,
+          "iterations": 15,
+          "converged_monitor": true,
+          "relative_l2_change": 3.493387925876426e-05
+        },
+        {
+          "component": 10,
+          "iterations": 25,
+          "converged_monitor": true,
+          "relative_l2_change": 5.285365689510436e-05
+        },
+        {
+          "component": 11,
+          "iterations": 15,
+          "converged_monitor": true,
+          "relative_l2_change": 1.7731225910749224e-05
+        },
+        {
+          "component": 12,
+          "iterations": 9,
+          "converged_monitor": true,
+          "relative_l2_change": 4.1174940335036395e-05
+        },
+        {
+          "component": 13,
+          "iterations": 28,
+          "converged_monitor": true,
+          "relative_l2_change": 6.531594766541671e-05
+        },
+        {
+          "component": 14,
+          "iterations": 30,
+          "converged_monitor": true,
+          "relative_l2_change": 4.1491791077527405e-05
+        },
+        {
+          "component": 15,
+          "iterations": 44,
+          "converged_monitor": true,
+          "relative_l2_change": 9.138114989232709e-05
+        },
+        {
+          "component": 16,
+          "iterations": 33,
+          "converged_monitor": true,
+          "relative_l2_change": 8.854417795458226e-05
+        },
+        {
+          "component": 17,
+          "iterations": 52,
+          "converged_monitor": true,
+          "relative_l2_change": 7.721355700296828e-05
+        },
+        {
+          "component": 18,
+          "iterations": 16,
+          "converged_monitor": true,
+          "relative_l2_change": 2.303369243791247e-05
+        },
+        {
+          "component": 19,
+          "iterations": 21,
+          "converged_monitor": true,
+          "relative_l2_change": 6.492490650711966e-05
+        },
+        {
+          "component": 20,
+          "iterations": 9,
+          "converged_monitor": true,
+          "relative_l2_change": 6.258041789958431e-05
+        },
+        {
+          "component": 21,
+          "iterations": 13,
+          "converged_monitor": true,
+          "relative_l2_change": 4.488762317445985e-05
+        },
+        {
+          "component": 22,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 8.53974234949302e-06
+        },
+        {
+          "component": 23,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 9.229695157194831e-05
+        },
+        {
+          "component": 24,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 1.4537104222889376e-05
+        },
+        {
+          "component": 25,
+          "iterations": 13,
+          "converged_monitor": true,
+          "relative_l2_change": 6.799003105266804e-05
+        },
+        {
+          "component": 26,
+          "iterations": 44,
+          "converged_monitor": true,
+          "relative_l2_change": 9.855923439052415e-05
+        },
+        {
+          "component": 27,
+          "iterations": 14,
+          "converged_monitor": true,
+          "relative_l2_change": 3.0374494160416952e-06
+        },
+        {
+          "component": 28,
+          "iterations": 14,
+          "converged_monitor": true,
+          "relative_l2_change": 2.7025527073303567e-05
+        },
+        {
+          "component": 29,
+          "iterations": 39,
+          "converged_monitor": true,
+          "relative_l2_change": 9.848743809926872e-05
+        },
+        {
+          "component": 30,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 9.447988226575041e-05
+        }
+      ],
+      "gram_off_identity_fro": 1.9221557059021932
+    },
+    "recognition_3024_PCA": {
+      "seconds": 0.038086900021880865,
+      "components": []
+    },
+    "recognition_3024_PCA-L1": {
+      "seconds": 0.18820809992030263,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 2,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 3,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 4,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 5,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 6,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 7,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 8,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 4.979474631306818e-05
+        },
+        {
+          "component": 9,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 10,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 11,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 1.9131987689756595e-05
+        },
+        {
+          "component": 12,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 2.0366964317906103e-05
+        },
+        {
+          "component": 13,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 14,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 15,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 16,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 17,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 18,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 19,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 20,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 8.968976444378464e-05
+        },
+        {
+          "component": 21,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 22,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 23,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 24,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 25,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 26,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 27,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 28,
+          "iterations": 7,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 29,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 30,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        }
+      ],
+      "gram_off_identity_fro": 1.543064380665217e-15
+    },
+    "recognition_3024_RSSPCA": {
+      "seconds": 8.141800299985334,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 81,
+          "converged_monitor": true,
+          "relative_l2_change": 9.605244731227372e-05
+        },
+        {
+          "component": 2,
+          "iterations": 42,
+          "converged_monitor": true,
+          "relative_l2_change": 9.767841098596298e-05
+        },
+        {
+          "component": 3,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 1.766591883460728e-05
+        },
+        {
+          "component": 4,
+          "iterations": 87,
+          "converged_monitor": true,
+          "relative_l2_change": 9.406872348226942e-05
+        },
+        {
+          "component": 5,
+          "iterations": 31,
+          "converged_monitor": true,
+          "relative_l2_change": 9.074360666048245e-05
+        },
+        {
+          "component": 6,
+          "iterations": 27,
+          "converged_monitor": true,
+          "relative_l2_change": 9.133684500953688e-05
+        },
+        {
+          "component": 7,
+          "iterations": 100,
+          "converged_monitor": false,
+          "relative_l2_change": 0.00027666720761503424
+        },
+        {
+          "component": 8,
+          "iterations": 44,
+          "converged_monitor": true,
+          "relative_l2_change": 8.138836322458335e-05
+        },
+        {
+          "component": 9,
+          "iterations": 100,
+          "converged_monitor": false,
+          "relative_l2_change": 0.000210755873075286
+        },
+        {
+          "component": 10,
+          "iterations": 36,
+          "converged_monitor": true,
+          "relative_l2_change": 9.277405173723718e-05
+        },
+        {
+          "component": 11,
+          "iterations": 31,
+          "converged_monitor": true,
+          "relative_l2_change": 2.3741311508460372e-05
+        },
+        {
+          "component": 12,
+          "iterations": 20,
+          "converged_monitor": true,
+          "relative_l2_change": 7.775583691980806e-05
+        },
+        {
+          "component": 13,
+          "iterations": 28,
+          "converged_monitor": true,
+          "relative_l2_change": 2.9716759213752323e-05
+        },
+        {
+          "component": 14,
+          "iterations": 62,
+          "converged_monitor": true,
+          "relative_l2_change": 6.162368166349693e-05
+        },
+        {
+          "component": 15,
+          "iterations": 8,
+          "converged_monitor": true,
+          "relative_l2_change": 8.205321552388178e-05
+        },
+        {
+          "component": 16,
+          "iterations": 14,
+          "converged_monitor": true,
+          "relative_l2_change": 7.738982236279828e-06
+        },
+        {
+          "component": 17,
+          "iterations": 24,
+          "converged_monitor": true,
+          "relative_l2_change": 5.270815499097353e-05
+        },
+        {
+          "component": 18,
+          "iterations": 43,
+          "converged_monitor": true,
+          "relative_l2_change": 9.672204750117106e-05
+        },
+        {
+          "component": 19,
+          "iterations": 60,
+          "converged_monitor": true,
+          "relative_l2_change": 9.444957381391586e-05
+        },
+        {
+          "component": 20,
+          "iterations": 50,
+          "converged_monitor": true,
+          "relative_l2_change": 5.024012728413731e-06
+        },
+        {
+          "component": 21,
+          "iterations": 25,
+          "converged_monitor": true,
+          "relative_l2_change": 8.221487458389819e-05
+        },
+        {
+          "component": 22,
+          "iterations": 22,
+          "converged_monitor": true,
+          "relative_l2_change": 6.398902487830626e-05
+        },
+        {
+          "component": 23,
+          "iterations": 50,
+          "converged_monitor": true,
+          "relative_l2_change": 9.860087599666831e-05
+        },
+        {
+          "component": 24,
+          "iterations": 44,
+          "converged_monitor": true,
+          "relative_l2_change": 6.105152589123183e-05
+        },
+        {
+          "component": 25,
+          "iterations": 21,
+          "converged_monitor": true,
+          "relative_l2_change": 3.228206073951212e-05
+        },
+        {
+          "component": 26,
+          "iterations": 27,
+          "converged_monitor": true,
+          "relative_l2_change": 3.953387807320208e-06
+        },
+        {
+          "component": 27,
+          "iterations": 33,
+          "converged_monitor": true,
+          "relative_l2_change": 2.8228928559217013e-05
+        },
+        {
+          "component": 28,
+          "iterations": 37,
+          "converged_monitor": true,
+          "relative_l2_change": 5.070580153736807e-05
+        },
+        {
+          "component": 29,
+          "iterations": 52,
+          "converged_monitor": true,
+          "relative_l2_change": 8.8730182427056e-05
+        },
+        {
+          "component": 30,
+          "iterations": 38,
+          "converged_monitor": true,
+          "relative_l2_change": 7.113311396962882e-05
+        }
+      ],
+      "gram_off_identity_fro": 1.062086033028573
+    },
+    "recognition_77_PCA": {
+      "seconds": 0.03638219996355474,
+      "components": []
+    },
+    "recognition_77_PCA-L1": {
+      "seconds": 0.19903799996245652,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 2,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 3,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 8.654817687135067e-06
+        },
+        {
+          "component": 4,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 5,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 6,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 7,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 8,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 9,
+          "iterations": 9,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 10,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 11,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 8.427476909000299e-05
+        },
+        {
+          "component": 12,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 2.9544857976529046e-05
+        },
+        {
+          "component": 13,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 14,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 15,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 16,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 17,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 18,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 19,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 20,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 21,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 22,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 23,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 24,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 5.407031711956012e-05
+        },
+        {
+          "component": 25,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 26,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 27,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 28,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 29,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 3.8998147534178764e-05
+        },
+        {
+          "component": 30,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        }
+      ],
+      "gram_off_identity_fro": 1.1471377882941638e-15
+    },
+    "recognition_77_RSSPCA": {
+      "seconds": 6.312105800025165,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 63,
+          "converged_monitor": true,
+          "relative_l2_change": 9.818560547314324e-05
+        },
+        {
+          "component": 2,
+          "iterations": 40,
+          "converged_monitor": true,
+          "relative_l2_change": 9.894139261452025e-05
+        },
+        {
+          "component": 3,
+          "iterations": 36,
+          "converged_monitor": true,
+          "relative_l2_change": 7.795828411358195e-05
+        },
+        {
+          "component": 4,
+          "iterations": 51,
+          "converged_monitor": true,
+          "relative_l2_change": 2.8354462361449467e-05
+        },
+        {
+          "component": 5,
+          "iterations": 37,
+          "converged_monitor": true,
+          "relative_l2_change": 8.044822544941292e-05
+        },
+        {
+          "component": 6,
+          "iterations": 21,
+          "converged_monitor": true,
+          "relative_l2_change": 1.2022735580619234e-05
+        },
+        {
+          "component": 7,
+          "iterations": 36,
+          "converged_monitor": true,
+          "relative_l2_change": 8.751806932195594e-05
+        },
+        {
+          "component": 8,
+          "iterations": 12,
+          "converged_monitor": true,
+          "relative_l2_change": 2.1609597721892248e-05
+        },
+        {
+          "component": 9,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 6.63366288132356e-05
+        },
+        {
+          "component": 10,
+          "iterations": 40,
+          "converged_monitor": true,
+          "relative_l2_change": 9.76868850381653e-05
+        },
+        {
+          "component": 11,
+          "iterations": 46,
+          "converged_monitor": true,
+          "relative_l2_change": 7.34811853851894e-05
+        },
+        {
+          "component": 12,
+          "iterations": 40,
+          "converged_monitor": true,
+          "relative_l2_change": 7.757023989510154e-05
+        },
+        {
+          "component": 13,
+          "iterations": 91,
+          "converged_monitor": true,
+          "relative_l2_change": 7.916703309636488e-05
+        },
+        {
+          "component": 14,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 6.590610425184843e-05
+        },
+        {
+          "component": 15,
+          "iterations": 32,
+          "converged_monitor": true,
+          "relative_l2_change": 9.813424052958275e-05
+        },
+        {
+          "component": 16,
+          "iterations": 62,
+          "converged_monitor": true,
+          "relative_l2_change": 7.814592052191892e-05
+        },
+        {
+          "component": 17,
+          "iterations": 8,
+          "converged_monitor": true,
+          "relative_l2_change": 4.062328801830732e-05
+        },
+        {
+          "component": 18,
+          "iterations": 28,
+          "converged_monitor": true,
+          "relative_l2_change": 7.267279947549108e-05
+        },
+        {
+          "component": 19,
+          "iterations": 19,
+          "converged_monitor": true,
+          "relative_l2_change": 9.525458950342397e-05
+        },
+        {
+          "component": 20,
+          "iterations": 14,
+          "converged_monitor": true,
+          "relative_l2_change": 1.6618500209840114e-05
+        },
+        {
+          "component": 21,
+          "iterations": 30,
+          "converged_monitor": true,
+          "relative_l2_change": 5.128360216897889e-05
+        },
+        {
+          "component": 22,
+          "iterations": 45,
+          "converged_monitor": true,
+          "relative_l2_change": 9.409495609155832e-05
+        },
+        {
+          "component": 23,
+          "iterations": 13,
+          "converged_monitor": true,
+          "relative_l2_change": 6.0397086398359304e-05
+        },
+        {
+          "component": 24,
+          "iterations": 10,
+          "converged_monitor": true,
+          "relative_l2_change": 2.1986130050016145e-05
+        },
+        {
+          "component": 25,
+          "iterations": 21,
+          "converged_monitor": true,
+          "relative_l2_change": 6.987858509927672e-05
+        },
+        {
+          "component": 26,
+          "iterations": 7,
+          "converged_monitor": true,
+          "relative_l2_change": 9.280040189034391e-06
+        },
+        {
+          "component": 27,
+          "iterations": 65,
+          "converged_monitor": true,
+          "relative_l2_change": 9.112749841720961e-05
+        },
+        {
+          "component": 28,
+          "iterations": 31,
+          "converged_monitor": true,
+          "relative_l2_change": 2.559167665675498e-05
+        },
+        {
+          "component": 29,
+          "iterations": 18,
+          "converged_monitor": true,
+          "relative_l2_change": 6.476701226698459e-05
+        },
+        {
+          "component": 30,
+          "iterations": 39,
+          "converged_monitor": true,
+          "relative_l2_change": 9.428837871285497e-05
+        }
+      ],
+      "gram_off_identity_fro": 1.0289646520423297
+    },
+    "reconstruction_2026_PCA": {
+      "seconds": 0.038746300037018955,
+      "components": []
+    },
+    "reconstruction_2026_PCA-L1": {
+      "seconds": 0.1921610999852419,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 2,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 3,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 4,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 5,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 6,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 7,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 8,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 9,
+          "iterations": 2,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 10,
+          "iterations": 7,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 11,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 7.781398632711541e-05
+        },
+        {
+          "component": 12,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 13,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 14,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 15,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 16,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 17,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 18,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 19,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 20,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 21,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 5.644914893067216e-05
+        },
+        {
+          "component": 22,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 23,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 24,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 25,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 26,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 27,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 28,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 29,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 0.0
+        },
+        {
+          "component": 30,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 2.7930705248902594e-05
+        }
+      ],
+      "gram_off_identity_fro": 1.490185465867575e-15
+    },
+    "reconstruction_2026_RSSPCA": {
+      "seconds": 0.8761430000886321,
+      "components": [
+        {
+          "component": 1,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 1.6821531530946462e-06
+        },
+        {
+          "component": 2,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 2.0206851119335505e-06
+        },
+        {
+          "component": 3,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 3.5187124585699447e-06
+        },
+        {
+          "component": 4,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 6.707335578079365e-06
+        },
+        {
+          "component": 5,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 5.133156077480236e-06
+        },
+        {
+          "component": 6,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 1.9664315708139503e-06
+        },
+        {
+          "component": 7,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 1.1965470223719921e-05
+        },
+        {
+          "component": 8,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 1.4687531529729672e-06
+        },
+        {
+          "component": 9,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 5.1236958535637045e-06
+        },
+        {
+          "component": 10,
+          "iterations": 9,
+          "converged_monitor": true,
+          "relative_l2_change": 1.1824423671786133e-05
+        },
+        {
+          "component": 11,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 3.105859425382095e-06
+        },
+        {
+          "component": 12,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 2.0904200792677886e-06
+        },
+        {
+          "component": 13,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 1.078231241803452e-06
+        },
+        {
+          "component": 14,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 8.117816900040914e-06
+        },
+        {
+          "component": 15,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 2.1326591775270136e-07
+        },
+        {
+          "component": 16,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 7.94129695683855e-07
+        },
+        {
+          "component": 17,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 1.7912923027253854e-06
+        },
+        {
+          "component": 18,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 5.404427578318469e-06
+        },
+        {
+          "component": 19,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 1.4397528796255598e-05
+        },
+        {
+          "component": 20,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 4.4227222365083636e-06
+        },
+        {
+          "component": 21,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 5.694417171892589e-06
+        },
+        {
+          "component": 22,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 6.91545681486951e-07
+        },
+        {
+          "component": 23,
+          "iterations": 12,
+          "converged_monitor": true,
+          "relative_l2_change": 4.766569061620247e-06
+        },
+        {
+          "component": 24,
+          "iterations": 5,
+          "converged_monitor": true,
+          "relative_l2_change": 2.5024063986267304e-05
+        },
+        {
+          "component": 25,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 1.1502103853078106e-06
+        },
+        {
+          "component": 26,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 1.0741247278422037e-05
+        },
+        {
+          "component": 27,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 3.1672432612669793e-07
+        },
+        {
+          "component": 28,
+          "iterations": 3,
+          "converged_monitor": true,
+          "relative_l2_change": 3.3962398905599737e-06
+        },
+        {
+          "component": 29,
+          "iterations": 4,
+          "converged_monitor": true,
+          "relative_l2_change": 2.246858950673327e-06
+        },
+        {
+          "component": 30,
+          "iterations": 6,
+          "converged_monitor": true,
+          "relative_l2_change": 1.1936922193298128e-06
+        }
+      ],
+      "gram_off_identity_fro": 0.35756940062836157
+    }
+  },
+  "reconstruction_projection": "W @ pinv(W) @ centered_image",
+  "clipped_before_metrics": false,
+  "psnr_aggregation": "mean of per-image PSNR, data_range=1",
+  "standard_deviation": "sample standard deviation across three split accuracies (ddof=1)",
+  "convergence_note": "Upstream relative L2 monitor; not a proof of stationary constrained L1 optimum"
+}
